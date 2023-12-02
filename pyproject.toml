@@ -1,0 +1,10 @@
+[project]
+name = "neseditor"
+version = "0.0.1"
+dependencies = [
+    "PyQt6"
+]
+
+[project.gui-scripts]
+neseditor-gui = "neseditor.app:main"
+
