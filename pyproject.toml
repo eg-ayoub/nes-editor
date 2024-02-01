@@ -2,7 +2,8 @@
 name = "neseditor"
 version = "0.0.1"
 dependencies = [
-    "PyQt6"
+    "PyQt6",
+    "python-lsp-server[pylint]",
 ]
 
 [project.gui-scripts]
